@@ -1,0 +1,1297 @@
+﻿Log file open, 11/22/16 18:32:46
+LogInit:Display: Running engine for game: MIrrorChamber
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1428453079) SRandInit(-1428453077).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.079534
+LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3039270
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.11.22-21.32.46:837][  0]LogInit: Selected Device Profile: [Windows]
+[2016.11.22-21.32.46:837][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.11.22-21.32.46:845][  0]LogInit: Computer: GUEKIVAC
+[2016.11.22-21.32.46:845][  0]LogInit: User: Guekaware
+[2016.11.22-21.32.46:845][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.11.22-21.32.46:845][  0]LogInit: High frequency timer resolution =2.531256 MHz
+[2016.11.22-21.32.46:845][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.11.22-21.32.46:845][  0]LogMemory: Platform Memory Stats for Windows
+[2016.11.22-21.32.46:845][  0]LogMemory: Process Physical Memory: 190.44 MB used, 190.44 MB peak
+[2016.11.22-21.32.46:845][  0]LogMemory: Process Virtual Memory: 195.39 MB used, 195.39 MB peak
+[2016.11.22-21.32.46:845][  0]LogMemory: Physical Memory: 7809.17 MB used, 16283.44 MB total
+[2016.11.22-21.32.46:846][  0]LogMemory: Virtual Memory: 539.41 MB used, 134217728.00 MB total
+[2016.11.22-21.32.46:876][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.11.22-21.32.47:261][  0]LogD3D11RHI: D3D11 adapters:
+[2016.11.22-21.32.47:290][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970M' (Feature Level 11_0)
+[2016.11.22-21.32.47:290][  0]LogD3D11RHI:       3037/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2016.11.22-21.32.47:297][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2016.11.22-21.32.47:297][  0]LogD3D11RHI:       128/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2016.11.22-21.32.47:298][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.11.22-21.32.47:298][  0]LogD3D11RHI:       0/0/8141 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.11.22-21.32.47:298][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.11.22-21.32.47:305][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.11.22-21.32.47:305][  0]LogD3D11RHI:     GPU DeviceId: 0x13d8 (for the marketing name, search the web for "GPU Device Id")
+[2016.11.22-21.32.47:305][  0]LogWindows: EnumDisplayDevices:
+[2016.11.22-21.32.47:305][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2016.11.22-21.32.47:305][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2016.11.22-21.32.47:306][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2016.11.22-21.32.47:306][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970M' (P:0 D:1)
+[2016.11.22-21.32.47:306][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2016.11.22-21.32.47:306][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970M
+[2016.11.22-21.32.47:306][  0]LogD3D11RHI:   Driver Version: 372.54 (internal:21.21.13.7254, unified:372.54)
+[2016.11.22-21.32.47:306][  0]LogD3D11RHI:      Driver Date: 8-11-2016
+[2016.11.22-21.32.47:306][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.11.22-21.32.47:321][  0]LogD3D11RHI: Async texture creation enabled
+[2016.11.22-21.32.47:330][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2016.11.22-21.32.47:331][  0]LogShaderCompilers: Guid format shader working directory is 16 characters bigger than the processId version (D:/Unreal Projects/MirrorChamber/Intermediate/Shaders/WorkingDirectory/11448/).
+[2016.11.22-21.32.47:331][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/GUEKAW~1/AppData/Local/Temp/UnrealShaderWorkingDir/06A6C59E41F2A2EC5313678326B0F6EB/'.
+[2016.11.22-21.32.47:331][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.11.22-21.32.48:251][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.11.22-21.32.48:260][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.11.22-21.32.48:270][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.11.22-21.32.48:279][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.11.22-21.32.48:288][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.11.22-21.32.48:296][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.11.22-21.32.48:304][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.11.22-21.32.48:314][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.11.22-21.32.48:325][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.11.22-21.32.48:333][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.11.22-21.32.48:340][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.11.22-21.32.48:355][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.11.22-21.32.48:355][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.11.22-21.32.48:355][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.11.22-21.32.48:376][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.11.22-21.32.48:384][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.11.22-21.32.48:391][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.11.22-21.32.48:398][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.11.22-21.32.48:406][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.11.22-21.32.48:406][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.11.22-21.32.48:489][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.11.22-21.32.48:535][  0]LogDerivedDataCache: Loaded boot cache 0.05s 48MB C:/Users/Guekaware/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.11.22-21.32.48:535][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Guekaware/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2016.11.22-21.32.48:535][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Unreal Projects/MirrorChamber/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.11.22-21.32.48:535][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.11.22-21.32.48:535][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Unreal Projects/MirrorChamber/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.11.22-21.32.48:535][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.11.22-21.32.48:551][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.11.22-21.32.48:564][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Guekaware/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.11.22-21.32.48:737][  0]LogInit: Selected Device Profile: [Windows]
+[2016.11.22-21.32.48:738][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.11.22-21.32.48:894][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.11.22-21.32.48:894][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.11.22-21.32.48:894][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.11.22-21.32.49:134][  0]LogAssetRegistry: FAssetRegistry took 0.0216 seconds to start up
+[2016.11.22-21.32.49:153][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.016580 seconds
+[2016.11.22-21.32.49:158][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2016.11.22-21.32.49:158][  0]LogUObjectAllocator: 5855624 out of 0 bytes used by permanent object pool.
+[2016.11.22-21.32.49:158][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.11.22-21.32.49:169][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.11.22-21.32.49:340][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.11.22-21.32.49:340][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.11.22-21.32.49:966][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.11.22-21.32.50:192][  0]SourceControl: Info Source control is disabled
+[2016.11.22-21.32.50:259][  0]SourceControl: Info Source control is disabled
+[2016.11.22-21.32.50:269][  0]SourceControl: Info Source control is disabled
+[2016.11.22-21.32.50:278][  0]SourceControl: Info Source control is disabled
+[2016.11.22-21.32.50:509][  0]LogEngine: Initializing Engine...
+[2016.11.22-21.32.50:509][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.11.22-21.32.50:510][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.11.22-21.32.50:642][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.11.22-21.32.50:649][  0]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.22-21.32.50:666][  0]LogInit: FAudioDevice initialized.
+[2016.11.22-21.32.50:689][  0]LogDerivedDataCache: Saved boot cache 0.02s 48MB C:/Users/Guekaware/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.11.22-21.32.50:693][  0]LogInit: Texture streaming: Enabled
+[2016.11.22-21.32.50:723][  0]LogInit: Transaction tracking system initialized
+[2016.11.22-21.32.50:749][  0]BlueprintLog: New page: Editor Load
+[2016.11.22-21.32.50:835][  0]LocalizationService: Info Localization service is disabled
+[2016.11.22-21.32.50:904][  0]LogConsoleResponse:Display: 
+[2016.11.22-21.32.51:001][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.11.22-21.32.51:001][  0]LogCook:Display: Mobile HDR setting 1
+[2016.11.22-21.32.51:104][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/MirrorChamber/Content/' took 0.01s
+[2016.11.22-21.32.51:104][  0]SourceControl: Info Source control is disabled
+[2016.11.22-21.32.51:104][  0]Cmd: MAP LOAD FILE="D:/Unreal Projects/MirrorChamber/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.11.22-21.32.51:104][  0]LightingResults: New page: Lighting Build
+[2016.11.22-21.32.51:107][  0]MapCheck: New page: Map Check
+[2016.11.22-21.32.51:107][  0]LightingResults: New page: Lighting Build
+[2016.11.22-21.32.51:373][  0]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2016.11.22-21.32.51:386][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.11.22-21.32.51:386][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.11.22-21.32.51:423][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 36.485ms to complete.
+[2016.11.22-21.32.51:423][  0]LogFileHelpers: Loading map 'SideScrollerExampleMap' took 0.320
+[2016.11.22-21.32.51:497][  0]LogCollectionManager: Loaded 0 collections in 0.002358 seconds
+[2016.11.22-21.32.51:539][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/MirrorChamber/Saved/Collections/' took 0.01s
+[2016.11.22-21.32.51:539][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/MirrorChamber/Content/Developers/Guekaware/Collections/' took 0.01s
+[2016.11.22-21.32.51:539][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/MirrorChamber/Content/Collections/' took 0.01s
+[2016.11.22-21.32.51:539][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.11.22-21.32.51:548][  0]LogContentBrowser: Native class hierarchy populated in 0.0084 seconds. Added 2047 classes and 369 folders.
+[2016.11.22-21.32.51:552][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.11.22-21.32.51:552][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.11.22-21.32.51:553][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 12 classes and 0 folders.
+[2016.11.22-21.32.51:559][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.11.22-21.32.51:593][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.11.22-21.32.51:619][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.11.22-21.32.51:666][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.11.22-21.32.51:673][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.11.22-21.32.51:699][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.11.22-21.32.51:699][  0]LogLoad: Full Startup: 5.64 seconds (BP compile: 0.05 seconds)
+[2016.11.22-21.32.51:699][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.11.22-21.32.51:699][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.11.22-21.32.51:717][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.11.22-21.32.51:718][  0]LogOcInput: OculusInput pre-init called
+[2016.11.22-21.32.51:737][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.11.22-21.32.51:910][  0]LogRenderer: Reallocating scene render targets to support 828x1012 (Frame:2).
+[2016.11.22-21.32.51:987][  1]LogAssetRegistry: Asset discovery search completed in 2.8750 seconds
+[2016.11.22-21.32.51:987][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2016.11.22-21.32.51:987][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000018 seconds (updated 0 objects)
+[2016.11.22-21.33.06:083][835]LogSavePackage: Save=106.52ms
+[2016.11.22-21.33.06:083][835]LogSavePackage: Moving 'D:/Unreal Projects/MirrorChamber/Saved/SideScrollerExampleMapB4129511471DDB660CDC8E960046D26E.tmp' to 'D:/Unreal Projects/MirrorChamber/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
+[2016.11.22-21.33.06:085][835]LogSavePackage:Display: Finished SavePackage D:/Unreal Projects/MirrorChamber/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap
+[2016.11.22-21.33.06:899][882]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.11.22-21.33.06:899][882]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.22-21.33.06:899][882]PIE: New page: PIE session: SideScrollerExampleMap (Nov 22, 2016, 3:33:06 PM)
+[2016.11.22-21.33.06:899][882]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2016.11.22-21.33.06:918][882]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018842s)
+[2016.11.22-21.33.06:919][882]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2016.11.22-21.33.06:919][882]LogPlayLevel: PIE: World Init took: (0.000815s)
+[2016.11.22-21.33.06:919][882]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.019904s)
+[2016.11.22-21.33.06:936][882]LogInit: XAudio2 using 'Speakers (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.22-21.33.06:946][882]LogInit: FAudioDevice initialized.
+[2016.11.22-21.33.07:021][882]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2016.11.22-21.33.07:025][882]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2016.11.22-18.33.07
+[2016.11.22-21.33.07:026][882]LogWorld: Bringing up level for play took: 0.003157
+[2016.11.22-21.33.07:031][882]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2016.11.22-21.33.07:031][882]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap -0.529
+[2016.11.22-21.33.07:032][882]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.11.22-21.33.07:032][882]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:032][882]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	SideScrollerExampleMap_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap_C_1
+	Function /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C:ExecuteUbergraph_SideScrollerExampleMap:0213
+[2016.11.22-21.33.07:033][882]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:033][882]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.07:033][882]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:033][882]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	SideScrollerExampleMap_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap_C_1
+	Function /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C:ExecuteUbergraph_SideScrollerExampleMap:005D
+[2016.11.22-21.33.07:033][882]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:086][883]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:086][883]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	SideScrollerExampleMap_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap_C_1
+	Function /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C:ExecuteUbergraph_SideScrollerExampleMap:0213
+[2016.11.22-21.33.07:086][883]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:087][883]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.07:087][883]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:087][883]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	SideScrollerExampleMap_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap_C_1
+	Function /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C:ExecuteUbergraph_SideScrollerExampleMap:005D
+[2016.11.22-21.33.07:087][883]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:101][884]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:101][884]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	SideScrollerExampleMap_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap_C_1
+	Function /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C:ExecuteUbergraph_SideScrollerExampleMap:0213
+[2016.11.22-21.33.07:102][884]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:102][884]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.07:102][884]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:102][884]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	SideScrollerExampleMap_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap_C_1
+	Function /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C:ExecuteUbergraph_SideScrollerExampleMap:005D
+[2016.11.22-21.33.07:102][884]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:118][885]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:118][885]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	SideScrollerExampleMap_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap_C_1
+	Function /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C:ExecuteUbergraph_SideScrollerExampleMap:0213
+[2016.11.22-21.33.07:118][885]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:118][885]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.07:118][885]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:118][885]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	SideScrollerExampleMap_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap_C_1
+	Function /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C:ExecuteUbergraph_SideScrollerExampleMap:005D
+[2016.11.22-21.33.07:118][885]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:136][886]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:136][886]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	SideScrollerExampleMap_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap_C_1
+	Function /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C:ExecuteUbergraph_SideScrollerExampleMap:0213
+[2016.11.22-21.33.07:136][886]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:136][886]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.07:136][886]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:136][886]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	SideScrollerExampleMap_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap_C_1
+	Function /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C:ExecuteUbergraph_SideScrollerExampleMap:005D
+[2016.11.22-21.33.07:136][886]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:151][887]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:151][887]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	SideScrollerExampleMap_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap_C_1
+	Function /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C:ExecuteUbergraph_SideScrollerExampleMap:0213
+[2016.11.22-21.33.07:152][887]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:152][887]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.07:152][887]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:152][887]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	SideScrollerExampleMap_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap_C_1
+	Function /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C:ExecuteUbergraph_SideScrollerExampleMap:005D
+[2016.11.22-21.33.07:152][887]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:168][888]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:168][888]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	SideScrollerExampleMap_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap_C_1
+	Function /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C:ExecuteUbergraph_SideScrollerExampleMap:0213
+[2016.11.22-21.33.07:168][888]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:169][888]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.07:169][888]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:169][888]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	SideScrollerExampleMap_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap_C_1
+	Function /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C:ExecuteUbergraph_SideScrollerExampleMap:005D
+[2016.11.22-21.33.07:169][888]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:185][889]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:185][889]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	SideScrollerExampleMap_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap_C_1
+	Function /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C:ExecuteUbergraph_SideScrollerExampleMap:0213
+[2016.11.22-21.33.07:185][889]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:185][889]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.07:185][889]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:185][889]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	SideScrollerExampleMap_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap_C_1
+	Function /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C:ExecuteUbergraph_SideScrollerExampleMap:005D
+[2016.11.22-21.33.07:185][889]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:201][890]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:201][890]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	SideScrollerExampleMap_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap_C_1
+	Function /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C:ExecuteUbergraph_SideScrollerExampleMap:0213
+[2016.11.22-21.33.07:202][890]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:202][890]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.07:202][890]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:202][890]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:218][891]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:218][891]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:218][891]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.07:218][891]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:218][891]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:235][892]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:235][892]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:235][892]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.07:235][892]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:235][892]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:251][893]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:251][893]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:251][893]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.07:251][893]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:251][893]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:268][894]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:268][894]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:268][894]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.07:268][894]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:268][894]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:285][895]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:285][895]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:285][895]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.07:285][895]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:285][895]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:301][896]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:301][896]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:301][896]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.07:301][896]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:301][896]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:318][897]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:318][897]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:318][897]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.07:318][897]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:318][897]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:335][898]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:335][898]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:335][898]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.07:335][898]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:335][898]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:351][899]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:351][899]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:352][899]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.07:352][899]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:352][899]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:368][900]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:368][900]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:368][900]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.07:368][900]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:368][900]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:385][901]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:385][901]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:385][901]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.07:385][901]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:385][901]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:402][902]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:402][902]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:402][902]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.07:402][902]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:402][902]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:418][903]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:418][903]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:418][903]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.07:418][903]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:418][903]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:434][904]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:435][904]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:435][904]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.07:435][904]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:435][904]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:451][905]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:451][905]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:451][905]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.07:451][905]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:451][905]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:468][906]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:468][906]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:468][906]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.07:468][906]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:468][906]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:485][907]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:485][907]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:485][907]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.07:485][907]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:485][907]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:501][908]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:501][908]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:501][908]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.07:501][908]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:501][908]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:517][909]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:517][909]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:517][909]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.07:517][909]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:517][909]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:534][910]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:534][910]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:534][910]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.07:534][910]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:534][910]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:550][911]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:550][911]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:550][911]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.07:550][911]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:550][911]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:567][912]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:567][912]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:568][912]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.07:568][912]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:568][912]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:585][913]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:585][913]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:585][913]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.07:585][913]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:585][913]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:601][914]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:601][914]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:601][914]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.07:602][914]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:602][914]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:618][915]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:618][915]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:618][915]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.07:618][915]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:618][915]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:634][916]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:635][916]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:635][916]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.07:635][916]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:635][916]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:651][917]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:652][917]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:652][917]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.07:652][917]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:652][917]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:668][918]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:668][918]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:668][918]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.07:668][918]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:668][918]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:684][919]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:685][919]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:685][919]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.07:685][919]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:685][919]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:700][920]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:701][920]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:701][920]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.07:701][920]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:701][920]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:717][921]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:717][921]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:717][921]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.07:717][921]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:717][921]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:734][922]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:734][922]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:734][922]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.07:734][922]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:734][922]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:750][923]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:750][923]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:750][923]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.07:750][923]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:750][923]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:767][924]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:767][924]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:767][924]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.07:768][924]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:768][924]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:784][925]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:784][925]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:784][925]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.07:784][925]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:784][925]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:800][926]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:801][926]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:801][926]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.07:801][926]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:801][926]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:817][927]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:817][927]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:817][927]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.07:817][927]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:817][927]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:834][928]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:834][928]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:834][928]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.07:834][928]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:834][928]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:850][929]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:851][929]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:851][929]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.07:851][929]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:851][929]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:867][930]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:867][930]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:867][930]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.07:868][930]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:868][930]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:884][931]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:884][931]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:884][931]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.07:884][931]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:884][931]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:900][932]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:900][932]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:901][932]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.07:901][932]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:901][932]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:917][933]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:917][933]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:917][933]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.07:917][933]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:917][933]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:933][934]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:933][934]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:933][934]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.07:933][934]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:934][934]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:950][935]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:950][935]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:950][935]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.07:950][935]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:951][935]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:967][936]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:967][936]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:967][936]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.07:967][936]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:967][936]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:984][937]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:984][937]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.07:984][937]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.07:984][937]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.07:984][937]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:000][938]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:000][938]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:000][938]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.08:000][938]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:000][938]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:017][939]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:017][939]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:017][939]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.08:017][939]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:017][939]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:033][940]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:034][940]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:034][940]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.08:034][940]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:034][940]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:050][941]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:050][941]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:050][941]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.08:050][941]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:050][941]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:067][942]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:067][942]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:067][942]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.08:067][942]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:067][942]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:083][943]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:083][943]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:084][943]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.08:084][943]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:084][943]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:100][944]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:100][944]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:100][944]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.08:100][944]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:100][944]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:117][945]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:117][945]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:117][945]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.08:117][945]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:117][945]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:134][946]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:134][946]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:134][946]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.08:134][946]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:134][946]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:150][947]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:150][947]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:151][947]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.08:151][947]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:151][947]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:168][948]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:168][948]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:168][948]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.08:168][948]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:168][948]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:184][949]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:184][949]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:184][949]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.08:184][949]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:184][949]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:201][950]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:201][950]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:201][950]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.08:201][950]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:201][950]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:218][951]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:218][951]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:218][951]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.08:218][951]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:218][951]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:234][952]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:234][952]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:234][952]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.08:234][952]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:234][952]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:252][953]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:252][953]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:252][953]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.08:252][953]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:252][953]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:268][954]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:268][954]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:268][954]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.08:268][954]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:268][954]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:284][955]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:285][955]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:285][955]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.08:285][955]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:285][955]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:300][956]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:300][956]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:301][956]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.08:301][956]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:301][956]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:317][957]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:317][957]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:317][957]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.08:317][957]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:317][957]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:334][958]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:334][958]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:334][958]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.08:334][958]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:334][958]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:352][959]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:352][959]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:352][959]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.08:352][959]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:352][959]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:367][960]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:367][960]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:367][960]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.08:367][960]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:367][960]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:384][961]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:384][961]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:384][961]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.08:384][961]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:384][961]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:400][962]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:400][962]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:401][962]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.08:401][962]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:401][962]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:417][963]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:417][963]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:417][963]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.08:417][963]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:417][963]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:434][964]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:434][964]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:434][964]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.08:434][964]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:434][964]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:450][965]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:450][965]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:450][965]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.08:450][965]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:450][965]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:467][966]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:467][966]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:467][966]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.08:467][966]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:467][966]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:483][967]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:484][967]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:484][967]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.08:484][967]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:484][967]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:500][968]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:501][968]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:501][968]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.08:501][968]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:501][968]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:517][969]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:517][969]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:517][969]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.08:518][969]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:518][969]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:534][970]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:534][970]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:534][970]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.08:534][970]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:534][970]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:550][971]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:551][971]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:551][971]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.08:551][971]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:551][971]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:567][972]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:567][972]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:567][972]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.08:567][972]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:567][972]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:584][973]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:584][973]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:584][973]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.08:584][973]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:584][973]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:600][974]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:600][974]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:600][974]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.08:600][974]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:600][974]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:617][975]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:617][975]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:617][975]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.08:617][975]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:617][975]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:633][976]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:634][976]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:634][976]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.08:634][976]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:634][976]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:650][977]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:650][977]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:650][977]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.08:650][977]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:650][977]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:667][978]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:668][978]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:668][978]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.08:668][978]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:668][978]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:685][979]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:685][979]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:685][979]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.08:685][979]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:685][979]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:701][980]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:702][980]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:702][980]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.08:702][980]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:702][980]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:718][981]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:718][981]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:718][981]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.08:718][981]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:718][981]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:734][982]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:735][982]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:735][982]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.08:735][982]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:735][982]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:751][983]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:751][983]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:751][983]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.08:751][983]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:751][983]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:768][984]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:768][984]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:768][984]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.08:769][984]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:769][984]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:784][985]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:784][985]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:785][985]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.08:785][985]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:785][985]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:801][986]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:801][986]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:801][986]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.08:801][986]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:801][986]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:817][987]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:818][987]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:818][987]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.08:818][987]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:818][987]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:834][988]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:834][988]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:835][988]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.08:835][988]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:835][988]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:850][989]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:850][989]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:851][989]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.08:851][989]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:851][989]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:867][990]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:867][990]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:867][990]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.08:867][990]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:867][990]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:884][991]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:884][991]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:885][991]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.08:885][991]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:885][991]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:901][992]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:901][992]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:901][992]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.08:901][992]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:901][992]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:917][993]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:918][993]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:918][993]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.08:918][993]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:918][993]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:934][994]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:934][994]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:934][994]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.08:934][994]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:934][994]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:950][995]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:951][995]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:951][995]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.08:951][995]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:951][995]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:967][996]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:967][996]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:967][996]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.08:967][996]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:967][996]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:984][997]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:985][997]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.08:985][997]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.08:985][997]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.08:985][997]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.09:000][998]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.09:000][998]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Print String in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.09:001][998]LogBlueprintUserMessages: [SideScrollerExampleMap_C_1] 0.0
+[2016.11.22-21.33.09:001][998]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+
+[2016.11.22-21.33.09:001][998]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_SideScrollerExampleMap' from node: Branch in graph: EventGraph in object: SideScrollerExampleMap with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2016.11.22-21.33.09:017][999]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.11.22-21.33.09:051][999]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.11.22-21.33.12:066][176]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.11.22-21.33.12:154][177]Cmd: QUIT_EDITOR
+[2016.11.22-21.33.13:206][177]LogExit: Preparing to exit.
+[2016.11.22-21.33.14:100][177]LogExit: Editor shut down
+[2016.11.22-21.33.14:100][177]LogExit: Transaction tracking system shut down
+[2016.11.22-21.33.14:202][177]LogObj: Freed 0b from 0 cluster array pools.
+[2016.11.22-21.33.14:202][177]LogExit: Object subsystem successfully closed.
+[2016.11.22-21.33.14:216][177]LogD3D11RHI: Shutdown
+[2016.11.22-21.33.14:216][177]LogD3D11RHI: CleanupD3DDevice
+[2016.11.22-21.33.14:278][177]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.11.22-21.33.14:292][177]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (214)
+[2016.11.22-21.33.14:292][177]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (213)
+[2016.11.22-21.33.14:292][177]LogModuleManager: Shutting down and abandoning module CrashTracker (212)
+[2016.11.22-21.33.14:292][177]LogModuleManager: Shutting down and abandoning module SceneOutliner (211)
+[2016.11.22-21.33.14:292][177]LogModuleManager: Shutting down and abandoning module WidgetCarousel (210)
+[2016.11.22-21.33.14:292][177]LogModuleManager: Shutting down and abandoning module AddContentDialog (209)
+[2016.11.22-21.33.14:294][177]LogModuleManager: Shutting down and abandoning module GameplayTags (208)
+[2016.11.22-21.33.14:294][177]LogModuleManager: Shutting down and abandoning module EditorWidgets (207)
+[2016.11.22-21.33.14:294][177]LogModuleManager: Shutting down and abandoning module CollectionManager (206)
+[2016.11.22-21.33.14:295][177]LogModuleManager: Shutting down and abandoning module StatsViewer (205)
+[2016.11.22-21.33.14:295][177]LogModuleManager: Shutting down and abandoning module FoliageEdit (204)
+[2016.11.22-21.33.14:295][177]LogModuleManager: Shutting down and abandoning module LandscapeEditor (203)
+[2016.11.22-21.33.14:295][177]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (202)
+[2016.11.22-21.33.14:295][177]LogModuleManager: Shutting down and abandoning module ActorPickerMode (201)
+[2016.11.22-21.33.14:295][177]LogModuleManager: Shutting down and abandoning module GeometryMode (200)
+[2016.11.22-21.33.14:295][177]LogModuleManager: Shutting down and abandoning module TextureAlignMode (199)
+[2016.11.22-21.33.14:295][177]LogModuleManager: Shutting down and abandoning module BspMode (198)
+[2016.11.22-21.33.14:295][177]LogModuleManager: Shutting down and abandoning module HardwareSurvey (197)
+[2016.11.22-21.33.14:295][177]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (196)
+[2016.11.22-21.33.14:295][177]LogModuleManager: Shutting down and abandoning module SequenceRecorder (195)
+[2016.11.22-21.33.14:295][177]LogModuleManager: Shutting down and abandoning module AutomationWorker (194)
+[2016.11.22-21.33.14:295][177]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (193)
+[2016.11.22-21.33.14:295][177]LogModuleManager: Shutting down and abandoning module PlacementMode (192)
+[2016.11.22-21.33.14:295][177]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (191)
+[2016.11.22-21.33.14:295][177]LogModuleManager: Shutting down and abandoning module CharacterAI (190)
+[2016.11.22-21.33.14:295][177]LogModuleManager: Shutting down and abandoning module SmartSnapping (189)
+[2016.11.22-21.33.14:295][177]LogModuleManager: Shutting down and abandoning module SessionServices (188)
+[2016.11.22-21.33.14:295][177]LogModuleManager: Shutting down and abandoning module ViewportSnapping (187)
+[2016.11.22-21.33.14:295][177]LogModuleManager: Shutting down and abandoning module LogVisualizer (186)
+[2016.11.22-21.33.14:296][177]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (185)
+[2016.11.22-21.33.14:296][177]LogModuleManager: Shutting down and abandoning module IntroTutorials (184)
+[2016.11.22-21.33.14:296][177]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (183)
+[2016.11.22-21.33.14:296][177]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (182)
+[2016.11.22-21.33.14:296][177]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (181)
+[2016.11.22-21.33.14:296][177]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (180)
+[2016.11.22-21.33.14:880][177]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (179)
+[2016.11.22-21.33.14:881][177]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (178)
+[2016.11.22-21.33.14:881][177]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (177)
+[2016.11.22-21.33.14:881][177]LogModuleManager: Shutting down and abandoning module MergeActors (176)
+[2016.11.22-21.33.14:881][177]LogModuleManager: Shutting down and abandoning module SizeMap (175)
+[2016.11.22-21.33.14:881][177]LogModuleManager: Shutting down and abandoning module TreeMap (174)
+[2016.11.22-21.33.14:881][177]LogModuleManager: Shutting down and abandoning module ReferenceViewer (173)
+[2016.11.22-21.33.14:881][177]LogModuleManager: Shutting down and abandoning module LocalizationService (172)
+[2016.11.22-21.33.14:881][177]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (171)
+[2016.11.22-21.33.14:881][177]LogModuleManager: Shutting down and abandoning module HardwareTargeting (170)
+[2016.11.22-21.33.14:881][177]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (169)
+[2016.11.22-21.33.14:881][177]LogModuleManager: Shutting down and abandoning module UndoHistory (168)
+[2016.11.22-21.33.14:881][177]LogModuleManager: Shutting down and abandoning module UserFeedback (167)
+[2016.11.22-21.33.14:881][177]LogModuleManager: Shutting down and abandoning module XmlParser (166)
+[2016.11.22-21.33.14:881][177]LogModuleManager: Shutting down and abandoning module Blutility (165)
+[2016.11.22-21.33.14:881][177]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (164)
+[2016.11.22-21.33.14:881][177]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (163)
+[2016.11.22-21.33.14:881][177]LogModuleManager: Shutting down and abandoning module InputBindingEditor (162)
+[2016.11.22-21.33.14:881][177]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (161)
+[2016.11.22-21.33.14:881][177]LogModuleManager: Shutting down and abandoning module SettingsEditor (160)
+[2016.11.22-21.33.14:881][177]LogModuleManager: Shutting down and abandoning module ProjectLauncher (159)
+[2016.11.22-21.33.14:881][177]LogModuleManager: Shutting down and abandoning module SessionFrontend (158)
+[2016.11.22-21.33.14:881][177]LogModuleManager: Shutting down and abandoning module ProfilerClient (157)
+[2016.11.22-21.33.14:881][177]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (156)
+[2016.11.22-21.33.14:881][177]LogModuleManager: Shutting down and abandoning module DeviceManager (155)
+[2016.11.22-21.33.14:934][177]LogModuleManager: Shutting down and abandoning module AutomationController (154)
+[2016.11.22-21.33.14:934][177]LogModuleManager: Shutting down and abandoning module AutomationWindow (153)
+[2016.11.22-21.33.14:934][177]LogModuleManager: Shutting down and abandoning module Layers (152)
+[2016.11.22-21.33.14:934][177]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (151)
+[2016.11.22-21.33.14:934][177]LogModuleManager: Shutting down and abandoning module DetailCustomizations (150)
+[2016.11.22-21.33.14:934][177]LogModuleManager: Shutting down and abandoning module PackagesDialog (149)
+[2016.11.22-21.33.14:934][177]LogModuleManager: Shutting down and abandoning module Persona (148)
+[2016.11.22-21.33.14:934][177]LogModuleManager: Shutting down and abandoning module Kismet (147)
+[2016.11.22-21.33.14:935][177]LogModuleManager: Shutting down and abandoning module GraphEditor (146)
+[2016.11.22-21.33.14:935][177]LogModuleManager: Shutting down and abandoning module ClassViewer (145)
+[2016.11.22-21.33.14:935][177]LogModuleManager: Shutting down and abandoning module Toolbox (144)
+[2016.11.22-21.33.14:935][177]LogModuleManager: Shutting down and abandoning module ModuleUI (143)
+[2016.11.22-21.33.14:935][177]LogModuleManager: Shutting down and abandoning module MovieSceneTools (142)
+[2016.11.22-21.33.14:935][177]LogModuleManager: Shutting down and abandoning module OutputLog (141)
+[2016.11.22-21.33.14:935][177]LogModuleManager: Shutting down and abandoning module GammaUI (140)
+[2016.11.22-21.33.14:935][177]LogModuleManager: Shutting down and abandoning module Documentation (139)
+[2016.11.22-21.33.14:935][177]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (138)
+[2016.11.22-21.33.14:935][177]LogModuleManager: Shutting down and abandoning module AnalyticsET (137)
+[2016.11.22-21.33.14:935][177]LogModuleManager: Shutting down and abandoning module Analytics (136)
+[2016.11.22-21.33.14:935][177]LogModuleManager: Shutting down and abandoning module PortalServices (135)
+[2016.11.22-21.33.14:935][177]LogModuleManager: Shutting down and abandoning module PortalRpc (134)
+[2016.11.22-21.33.14:935][177]LogModuleManager: Shutting down and abandoning module MessagingRpc (133)
+[2016.11.22-21.33.14:935][177]LogModuleManager: Shutting down and abandoning module GameplayDebugger (132)
+[2016.11.22-21.33.14:935][177]LogModuleManager: Shutting down and abandoning module AITestSuite (131)
+[2016.11.22-21.33.14:935][177]LogModuleManager: Shutting down and abandoning module AIModule (130)
+[2016.11.22-21.33.14:935][177]LogModuleManager: Shutting down and abandoning module ProfilerService (129)
+[2016.11.22-21.33.14:992][177]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
+[2016.11.22-21.33.14:992][177]LogModuleManager: Shutting down and abandoning module SlateRemote (127)
+[2016.11.22-21.33.14:992][177]LogModuleManager: Shutting down and abandoning module SteamVRController (126)
+[2016.11.22-21.33.14:992][177]LogModuleManager: Shutting down and abandoning module SteamVR (125)
+[2016.11.22-21.33.14:992][177]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (124)
+[2016.11.22-21.33.14:992][177]LogModuleManager: Shutting down and abandoning module OculusLibrary (123)
+[2016.11.22-21.33.14:992][177]LogModuleManager: Shutting down and abandoning module OculusInput (122)
+[2016.11.22-21.33.14:992][177]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (121)
+[2016.11.22-21.33.14:992][177]LogModuleManager: Shutting down and abandoning module CableComponent (120)
+[2016.11.22-21.33.14:992][177]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (119)
+[2016.11.22-21.33.14:992][177]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (118)
+[2016.11.22-21.33.14:992][177]LogModuleManager: Shutting down and abandoning module HTML5Networking (117)
+[2016.11.22-21.33.14:992][177]LogModuleManager: Shutting down and abandoning module SuperSearch (116)
+[2016.11.22-21.33.14:993][177]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (115)
+[2016.11.22-21.33.14:993][177]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (114)
+[2016.11.22-21.33.14:993][177]LogModuleManager: Shutting down and abandoning module PluginBrowser (113)
+[2016.11.22-21.33.14:993][177]LogModuleManager: Shutting down and abandoning module EpicSurvey (112)
+[2016.11.22-21.33.14:993][177]LogModuleManager: Shutting down and abandoning module DesktopPlatform (111)
+[2016.11.22-21.33.14:993][177]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (110)
+[2016.11.22-21.33.14:993][177]LogModuleManager: Shutting down and abandoning module UObjectPlugin (109)
+[2016.11.22-21.33.14:993][177]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (108)
+[2016.11.22-21.33.14:993][177]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (107)
+[2016.11.22-21.33.14:993][177]LogModuleManager: Shutting down and abandoning module SourceControl (106)
+[2016.11.22-21.33.14:993][177]LogModuleManager: Shutting down and abandoning module GitSourceControl (105)
+[2016.11.22-21.33.14:993][177]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (104)
+[2016.11.22-21.33.14:993][177]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (103)
+[2016.11.22-21.33.14:993][177]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (102)
+[2016.11.22-21.33.14:993][177]LogModuleManager: Shutting down and abandoning module MeshPaint (101)
+[2016.11.22-21.33.14:993][177]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (100)
+[2016.11.22-21.33.14:993][177]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2016.11.22-21.33.14:994][177]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2016.11.22-21.33.14:994][177]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2016.11.22-21.33.14:994][177]LogModuleManager: Shutting down and abandoning module ContentBrowser (96)
+[2016.11.22-21.33.14:995][177]LogModuleManager: Shutting down and abandoning module Paper2DEditor (95)
+[2016.11.22-21.33.14:995][177]LogModuleManager: Shutting down and abandoning module UdpMessaging (94)
+[2016.11.22-21.33.15:096][177]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
+[2016.11.22-21.33.15:096][177]LogModuleManager: Shutting down and abandoning module Paper2D (92)
+[2016.11.22-21.33.15:096][177]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
+[2016.11.22-21.33.15:096][177]LogModuleManager: Shutting down and abandoning module Media (90)
+[2016.11.22-21.33.15:096][177]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
+[2016.11.22-21.33.15:096][177]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
+[2016.11.22-21.33.15:096][177]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
+[2016.11.22-21.33.15:096][177]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
+[2016.11.22-21.33.15:096][177]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
+[2016.11.22-21.33.15:096][177]LogModuleManager: Shutting down and abandoning module VREditor (84)
+[2016.11.22-21.33.15:096][177]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
+[2016.11.22-21.33.15:096][177]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
+[2016.11.22-21.33.15:096][177]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
+[2016.11.22-21.33.15:096][177]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
+[2016.11.22-21.33.15:096][177]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
+[2016.11.22-21.33.15:096][177]LogModuleManager: Shutting down and abandoning module Sequencer (78)
+[2016.11.22-21.33.15:096][177]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.11.22-21.33.15:096][177]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.11.22-21.33.15:096][177]LogModuleManager: Shutting down and abandoning module AssetTools (75)
+[2016.11.22-21.33.15:096][177]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
+[2016.11.22-21.33.15:097][177]LogModuleManager: Shutting down and abandoning module UMG (73)
+[2016.11.22-21.33.15:097][177]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
+[2016.11.22-21.33.15:097][177]LogModuleManager: Shutting down and abandoning module Slate (71)
+[2016.11.22-21.33.15:097][177]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
+[2016.11.22-21.33.15:099][177]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
+[2016.11.22-21.33.15:099][177]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
+[2016.11.22-21.33.15:099][177]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
+[2016.11.22-21.33.15:099][177]LogModuleManager: Shutting down and abandoning module Networking (65)
+[2016.11.22-21.33.15:099][177]LogModuleManager: Shutting down and abandoning module Core (64)
+[2016.11.22-21.33.15:099][177]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
+[2016.11.22-21.33.15:099][177]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
+[2016.11.22-21.33.15:190][177]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.11.22-21.33.15:190][177]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.11.22-21.33.15:190][177]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.11.22-21.33.15:190][177]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
+[2016.11.22-21.33.15:576][177]LogDerivedDataCache: Shutdown
+[2016.11.22-21.33.15:576][177]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
+[2016.11.22-21.33.15:576][177]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.11.22-21.33.15:576][177]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.11.22-21.33.15:576][177]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.11.22-21.33.15:576][177]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.11.22-21.33.15:576][177]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.11.22-21.33.15:576][177]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.11.22-21.33.15:576][177]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.11.22-21.33.15:576][177]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.11.22-21.33.15:576][177]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.11.22-21.33.15:576][177]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.11.22-21.33.15:576][177]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.11.22-21.33.15:576][177]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.11.22-21.33.15:576][177]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.11.22-21.33.15:576][177]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.11.22-21.33.15:576][177]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.11.22-21.33.15:576][177]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.11.22-21.33.15:576][177]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.11.22-21.33.15:576][177]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.11.22-21.33.15:576][177]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.11.22-21.33.15:576][177]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.11.22-21.33.15:576][177]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.11.22-21.33.15:576][177]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.11.22-21.33.15:576][177]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.11.22-21.33.15:576][177]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.11.22-21.33.15:576][177]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.11.22-21.33.15:576][177]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.11.22-21.33.15:576][177]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.11.22-21.33.15:576][177]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.11.22-21.33.15:576][177]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.11.22-21.33.15:576][177]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.11.22-21.33.15:576][177]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.11.22-21.33.15:576][177]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.11.22-21.33.15:576][177]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.11.22-21.33.15:576][177]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.11.22-21.33.15:576][177]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.11.22-21.33.15:576][177]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.11.22-21.33.15:577][177]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.11.22-21.33.15:577][177]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.11.22-21.33.20:087][177]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.11.22-21.33.20:087][177]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.11.22-21.33.20:087][177]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.11.22-21.33.20:087][177]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.11.22-21.33.20:087][177]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.11.22-21.33.20:087][177]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.11.22-21.33.20:087][177]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.11.22-21.33.20:087][177]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.11.22-21.33.20:088][177]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.11.22-21.33.20:088][177]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.11.22-21.33.20:088][177]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.11.22-21.33.20:088][177]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.11.22-21.33.20:088][177]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.11.22-21.33.20:088][177]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.11.22-21.33.20:088][177]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.11.22-21.33.20:088][177]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.11.22-21.33.20:088][177]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.11.22-21.33.20:089][177]LogExit: Exiting.
+[2016.11.22-21.33.20:091][177]Log file closed, 11/22/16 18:33:20
